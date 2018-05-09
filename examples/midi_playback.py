@@ -27,6 +27,7 @@ def play_music(music_file):
 # (if not in working folder use full path)
 
 midi_file = 'greensleeves.mid'
+#midi_file = 'underthesea.mid'
 freq = 44100    # audio CD quality
 bitsize = -16   # unsigned 16 bit
 channels = 2    # 1 is mono, 2 is stereo

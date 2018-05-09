@@ -13,6 +13,8 @@ volume   = 100  # 0-127, as per the MIDI standard
 MyMIDI = MIDIFile(1)  # One track
 MyMIDI.addTempo(track, time, tempo)
 
+a=[]
+
 """
 for i, pitch in enumerate(degrees):
     MyMIDI.addNote(track, channel, pitch, time + i, duration, volume)
@@ -20,33 +22,60 @@ for i, pitch in enumerate(degrees):
 """
 
 MyMIDI.addNote(0,0, 64 ,  0  ,  1   ,100) #E
+a.append("E")
 MyMIDI.addNote(0,0, 67 ,  1  ,  2   ,100) #G
+a.append("G")
 MyMIDI.addNote(0,0, 69 ,  3  ,  1   ,100) #A
+a.append("A")
 MyMIDI.addNote(0,0, 71 ,  4  ,  1.5 ,100) #B
+a.append("B")
 MyMIDI.addNote(0,0, 72 ,  5.5,  0.5 ,100) #C
+a.append("C")
 MyMIDI.addNote(0,0, 71 ,  6  ,  1   ,100) #B
+a.append("B")
 MyMIDI.addNote(0,0, 69 ,  7  ,  2   ,100) #A
+a.append("A")
 MyMIDI.addNote(0,0, 66 ,  9  ,  1   ,100) #(F#)
+a.append("F#")
 MyMIDI.addNote(0,0, 62 ,  10 ,  1.5 ,100) #D
+a.append("D")
 MyMIDI.addNote(0,0, 64 ,  11.5, 0.5 ,100) #E
+a.append("E")
 MyMIDI.addNote(0,0, 66 ,  12 ,  1.0 ,100) #(F#)
+a.append("F#")
 MyMIDI.addNote(0,0, 67 ,  13 ,  2   ,100) #G
+a.append("G")
 MyMIDI.addNote(0,0, 64 ,  15 ,  1   ,100) #E
+a.append("E")
 
 MyMIDI.addNote(0,0, 64 ,  16 ,  1.5 ,100) #E
+a.append("E")
 MyMIDI.addNote(0,0, 63 ,  17.5, 0.5 ,100) #D
+a.append("D")
 MyMIDI.addNote(0,0, 64 ,  18  , 1   ,100) #E
+a.append("E")
 MyMIDI.addNote(0,0, 66 ,  19 ,  2   ,100) #(F#)
+a.append("F#")
 MyMIDI.addNote(0,0, 63 ,  21 ,  1   ,100) #(D#)
+a.append("D#")
 MyMIDI.addNote(0,0, 59 ,  22 ,  2   ,100) #B
+a.append("B")
 MyMIDI.addNote(0,0, 64 ,  24 ,  1   ,100) #E
+a.append("E")
 MyMIDI.addNote(0,0, 67 ,  25 ,  2   ,100) #G
+a.append("G")
 MyMIDI.addNote(0,0, 69 ,  27 ,  1   ,100) #A
+a.append("A")
 MyMIDI.addNote(0,0, 71 ,  28 ,  1.5 ,100) #B
+a.append("B")
 MyMIDI.addNote(0,0, 72 ,  29.5, 0.5 ,100) #C
+a.append("C")
 MyMIDI.addNote(0,0, 71 ,  30 ,  1   ,100) #D
+a.append("D")
 MyMIDI.addNote(0,0, 69 ,  31 ,  2   ,100) #A
+a.append("A")
 MyMIDI.addNote(0,0, 66 ,  33 ,  1   ,100) #(F#)
+a.append("F#")
 
 MyMIDI.addNote(0,0, 62 ,  34 ,  1.5 ,100) #D
 MyMIDI.addNote(0,0, 64 ,  35.5, 0.5 ,100) #E
@@ -98,6 +127,13 @@ MyMIDI.addNote(0,0, 63 ,  89.5, 1   ,100) #(D#)
 MyMIDI.addNote(0,0, 64 ,  90.5, 3   ,100) #E
 MyMIDI.addNote(0,0, 64 ,  93.5, 2   ,100) #E
 
+for i in range(len(a)):
+    print(a[i])
+    
+
+
+
+    
 with open("greensleeves.mid", "wb") as output_file:
     MyMIDI.writeFile(output_file)
  

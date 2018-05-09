@@ -7,7 +7,7 @@ track    = 0
 channel  = 0
 time     = 0    # In beats
 duration = 1    # In beats
-tempo    = 120   # In BPM
+tempo    = 100   # In BPM
 volume   = 100  # 0-127, as per the MIDI standard
 
 MyMIDI = MIDIFile(1)  # One track
@@ -27,9 +27,6 @@ MyMIDI.addNote(0,0, 78 ,  2  ,  0.5   ,100) #(F#)
 MyMIDI.addNote(0,0, 78 ,  2.5,  1     ,100) #(F#)
 MyMIDI.addNote(0,0, 69 ,  3.5,  0.5   ,100) #D
 
-
-
-    
 with open("underthesea.mid", "wb") as output_file:
     MyMIDI.writeFile(output_file)
  

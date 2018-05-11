@@ -48,6 +48,7 @@ a.append("G")
 MyMIDI.addNote(0,0, 64 ,  15 ,  1   ,100) #E
 a.append("E")
 
+#Next Line
 MyMIDI.addNote(0,0, 64 ,  16 ,  1.5 ,100) #E
 a.append("E")
 MyMIDI.addNote(0,0, 63 ,  17.5, 0.5 ,100) #D
@@ -75,65 +76,144 @@ a.append("D")
 MyMIDI.addNote(0,0, 69 ,  31 ,  2   ,100) #A
 a.append("A")
 MyMIDI.addNote(0,0, 66 ,  33 ,  1   ,100) #(F#)
+a.append("F")
+
+#Next Line
+MyMIDI.addNote(0,0, 62 ,  34 ,  1.5 ,100) #D
+a.append("D")
+MyMIDI.addNote(0,0, 64 ,  35.5, 0.5 ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 66 ,  36 ,  1   ,100) #F
+a.append("F")
+MyMIDI.addNote(0,0, 67 ,  37 ,  1.5 ,100) #G
+a.append("G")
+MyMIDI.addNote(0,0, 66 ,  38.5, 0.5 ,100) #F
+a.append("F")
+MyMIDI.addNote(0,0, 64 ,  39 ,  1   ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 63 ,  40 ,  1.5 ,100) #(D#)
+a.append("D#")
+MyMIDI.addNote(0,0, 61 ,  41.5, 0.5 ,100) #(C#)
+a.append("C#")
+MyMIDI.addNote(0,0, 63 ,  42 ,  1   ,100) #(D#)
+a.append("D#")
+MyMIDI.addNote(0,0, 64 ,  43 ,  2   ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 64 ,  45 ,  1   ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 64 ,  46 ,  2.5 ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 74 ,  48.5, 3   ,100) #D
+a.append("D")
+MyMIDI.addNote(0,0, 74 ,  51.5, 1.5 ,100) #D
+a.append("D")
+MyMIDI.addNote(0,0, 73 ,  53 ,  0.5 ,100) #(C#)
+a.append("C#")
+MyMIDI.addNote(0,0, 71 ,  53.5, 1   ,100) #B
+a.append("B")
+
+#Next Line
+MyMIDI.addNote(0,0, 69 ,  54.5, 2   ,100) #A
+a.append("A")
+MyMIDI.addNote(0,0, 66 ,  56.5, 1   ,100) #(F#)
+a.append("F#")
+MyMIDI.addNote(0,0, 62 ,  57.5, 1.5 ,100) #D
+a.append("D")
+MyMIDI.addNote(0,0, 64 ,  59  , 0.5 ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 66 ,  59.5, 1   ,100) #(F#)
+a.append("F#")
+MyMIDI.addNote(0,0, 67 ,  60.5, 2   ,100) #(G)
+a.append("G")
+MyMIDI.addNote(0,0, 64 ,  62.5, 1   ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 64 ,  63.5, 1.5 ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 63 ,  65  , 0.5 ,100) #(D#)
+a.append("D#")
+MyMIDI.addNote(0,0, 64 ,  65.5, 1   ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 66 ,  66.5, 2   ,100) #(F#)
+a.append("F#")
+MyMIDI.addNote(0,0, 63 ,  68.5, 1   ,100) #(D#)
+a.append("D#")
+MyMIDI.addNote(0,0, 59 ,  69.5, 3   ,100) #(B)
+a.append("B")
+
+#Next Line
+MyMIDI.addNote(0,0, 74 ,  72.5, 3   ,100) #D
+a.append("D")
+MyMIDI.addNote(0,0, 74 ,  75.5, 1.5 ,100) #D
+a.append("D")
+MyMIDI.addNote(0,0, 73 ,  77  , 0.5 ,100) #(C#)
+a.append("C#")
+MyMIDI.addNote(0,0, 71 ,  77.5, 1   ,100) #B
+a.append("B")
+MyMIDI.addNote(0,0, 69 ,  78.5, 2   ,100) #A
+a.append("A")
+MyMIDI.addNote(0,0, 66 ,  80.5, 1   ,100) #(F#)
+a.append("F#")
+MyMIDI.addNote(0,0, 62 ,  81.5, 1.5 ,100) #D
+a.append("D")
+MyMIDI.addNote(0,0, 64 ,  83  , 0.5 ,100) #E
+a.append("E")
+MyMIDI.addNote(0,0, 66 ,  83.5, 1   ,100) #(F#)
 a.append("F#")
 
-MyMIDI.addNote(0,0, 62 ,  34 ,  1.5 ,100) #D
-MyMIDI.addNote(0,0, 64 ,  35.5, 0.5 ,100) #E
-MyMIDI.addNote(0,0, 66 ,  36 ,  1   ,100) #F
-MyMIDI.addNote(0,0, 67 ,  37 ,  1.5 ,100) #G
-MyMIDI.addNote(0,0, 66 ,  38.5, 0.5 ,100) #F
-MyMIDI.addNote(0,0, 64 ,  39 ,  1   ,100) #E
-MyMIDI.addNote(0,0, 63 ,  40 ,  1.5 ,100) #(D#)
-MyMIDI.addNote(0,0, 61 ,  41.5, 0.5 ,100) #(C#)
-MyMIDI.addNote(0,0, 63 ,  42 ,  1   ,100) #(D#)
-MyMIDI.addNote(0,0, 64 ,  43 ,  2   ,100) #E
-MyMIDI.addNote(0,0, 64 ,  45 ,  1   ,100) #E
-MyMIDI.addNote(0,0, 64 ,  46 ,  2.5 ,100) #E
-MyMIDI.addNote(0,0, 74 ,  48.5, 3   ,100) #D
-MyMIDI.addNote(0,0, 74 ,  51.5, 1.5 ,100) #D
-MyMIDI.addNote(0,0, 73 ,  53 ,  0.5 ,100) #(C#)
-MyMIDI.addNote(0,0, 71 ,  53.5, 1   ,100) #B  
-
-MyMIDI.addNote(0,0, 69 ,  54.5, 2   ,100) #A
-MyMIDI.addNote(0,0, 66 ,  56.5, 1   ,100) #(F#)
-MyMIDI.addNote(0,0, 62 ,  57.5, 1.5 ,100) #D
-MyMIDI.addNote(0,0, 64 ,  59  , 0.5 ,100) #E
-MyMIDI.addNote(0,0, 66 ,  59.5, 1   ,100) #(F#)
-MyMIDI.addNote(0,0, 67 ,  60.5, 2   ,100) #(G)
-MyMIDI.addNote(0,0, 64 ,  62.5, 1   ,100) #E
-MyMIDI.addNote(0,0, 64 ,  63.5, 1.5 ,100) #E
-MyMIDI.addNote(0,0, 63 ,  65  , 0.5 ,100) #(D#)
-MyMIDI.addNote(0,0, 64 ,  65.5, 1   ,100) #E
-MyMIDI.addNote(0,0, 66 ,  66.5, 2   ,100) #(F#)
-MyMIDI.addNote(0,0, 63 ,  68.5, 1   ,100) #(D#)
-MyMIDI.addNote(0,0, 59 ,  69.5, 3   ,100) #(B)
-
-MyMIDI.addNote(0,0, 74 ,  72.5, 3   ,100) #D
-MyMIDI.addNote(0,0, 74 ,  75.5, 1.5 ,100) #D
-MyMIDI.addNote(0,0, 73 ,  77  , 0.5 ,100) #(C#)
-MyMIDI.addNote(0,0, 71 ,  77.5, 1   ,100) #B
-MyMIDI.addNote(0,0, 69 ,  78.5, 2   ,100) #A
-MyMIDI.addNote(0,0, 66 ,  80.5, 1   ,100) #(F#)
-MyMIDI.addNote(0,0, 62 ,  81.5, 1.5 ,100) #D
-MyMIDI.addNote(0,0, 64 ,  83  , 0.5 ,100) #E
-MyMIDI.addNote(0,0, 66 ,  83.5, 1   ,100) #(F#)
-
+#Next Line
 MyMIDI.addNote(0,0, 67 ,  84.5, 1.5 ,100) #G
+a.append("G")
 MyMIDI.addNote(0,0, 66 ,  86  , 0.5 ,100) #(F#)
+a.append("F#")
 MyMIDI.addNote(0,0, 64 ,  86.5, 1   ,100) #E
+a.append("E")
 MyMIDI.addNote(0,0, 63 ,  87.5, 1.5 ,100) #(D#)
+a.append("D#")
 MyMIDI.addNote(0,0, 61 ,  89  , 0.5 ,100) #(C#)
+a.append("C#")
 MyMIDI.addNote(0,0, 63 ,  89.5, 1   ,100) #(D#)
+a.append("D#")
 MyMIDI.addNote(0,0, 64 ,  90.5, 3   ,100) #E
+a.append("E")
 MyMIDI.addNote(0,0, 64 ,  93.5, 2   ,100) #E
+a.append("E")
+
+key = "C major"
+sharp = 0
+Fsharp = False
+Csharp = False
+firstC = False
 
 for i in range(len(a)):
-    print(a[i])
+    if a[i] == "F#" and Fsharp == False:
+        Fsharp = True
+        key = "G Major or E Minor"
+        print("Hit F#!")
+        print(key)
+    #E Minor (E,G,B, - cannot change) (G Major - G,B,D, they cannot change)
+
+    #Case for E Minor
+    if a[i] == "D#" and Fsharp == True and key !="E Minor":
+        key = "E Minor"
+        print("Hit D#!")
+        print(key)
+
     
+    #Case for G Major
+    if a[i] == "E#" and Fsharp == True:
+        key = "G Major"
+        print("Hit D#!")
+        print(key)
 
-
-
-    
+    if a[i] == "C" and Csharp == False:
+        firstC = True
+    if a[i] == "C#" and Csharp == False and firstC == False:
+        Csharp = True
+        print("Hit C#!")
+        if Fsharp == True:
+            key = "D Major or B Minor"
+            print (key)
+       
 with open("greensleeves.mid", "wb") as output_file:
     MyMIDI.writeFile(output_file)
  

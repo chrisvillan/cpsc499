@@ -205,6 +205,7 @@ for i in range(len(a)):
         print("Hit D#!")
         print(key)
 
+ 
     if a[i] == "C" and Csharp == False:
         firstC = True
     if a[i] == "C#" and Csharp == False and firstC == False:
@@ -212,8 +213,7 @@ for i in range(len(a)):
         print("Hit C#!")
         if Fsharp == True:
             key = "D Major or B Minor"
-            print (key)
-       
+            print(key)
+
 with open("greensleeves.mid", "wb") as output_file:
     MyMIDI.writeFile(output_file)
- 

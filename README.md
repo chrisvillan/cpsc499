@@ -29,6 +29,8 @@ In many songs, even if the key sets the basis of what notes are sharp or flat, t
 
 Triad chords are another aspect within a song. A chord is a combination of notes played simultaneously to produce a unique sound. A triad chord is a set of three notes that is based on its root note. Two categories of a chord are major or minor. A major chord’s first out of the three notes is its root note. That root note determines that name of the chord and how the other notes are chosen. The second note is four half steps above the root note. The third note is three half steps above the second note. Altogether, major chords are defined as its root, major 3rd, and perfect fifth note. A minor chord has similar patterns, but instead of a major 3rd, it has a minor third which is three half steps above the root note. The perfect fifth of a root note is four half steps above the second note. 
 
+Identifying triad chords and combining them with basic rules of major and minor keys can help in determining the true key of a song by just analyzing the sequence of notes. I’m hypothesizing that a triad chord’s notes cannot be altered as any alteration would change the triad chord overall. A C major scale can correlate to a C major chord. That C major chord’s three notes are C, E, and G. In a C major scale, the C E G cannot be altered but some of the notes may be able to change. 
+
 By the 19th note we’ve identified an F# and C# which indicates it being either in D Major and B Minor. Throughout the first page there is no deviation from notes being normal with the F# and C#. Therefore, using the first algorithm won’t be able to choose between the two. Using the tonal center concept, we can count D’s against B’s. Analyzing the first 40 notes, there is 16 D’s and 0 B’s. In this case, we can be confident that D has more of a tonal center than B, concluding that it is D Major, which is the true key of the song. Even though this can be applied in substitution of the first algorithm, the first algorithm can be a quicker indicator and better accuracy.
 
 Program
@@ -61,9 +63,3 @@ http://hubguitar.com/music-theory/identifying-the-root-note
 https://www.aboutmusictheory.com/major-scales.html
 https://www.helpscout.net/blog/psychology-of-color/
 
-
-
-
-
-
-Identifying triad chords and combining them with basic rules of major and minor keys can help in determining the true key of a song by just analyzing the sequence of notes. I’m hypothesizing that a triad chord’s notes cannot be altered as any alteration would change the triad chord overall. A C major scale can correlate to a C major chord. That C major chord’s three notes are C, E, and G. In a C major scale, the C E G cannot be altered but some of the notes may be able to change. 
